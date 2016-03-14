@@ -19,3 +19,4 @@ mvn clean install exec:java
 2. Test should be there
 3. Ideally a build tool is used (mvn/ant/gradles/etc)
 4. Should be packaged into model and IO parts
+5. Really good candidates won't have any switch statements in their code for managing direction. RobotOrientation is one way to do this (in the reference implementation)
